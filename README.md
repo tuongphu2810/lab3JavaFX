@@ -26,7 +26,7 @@ This JavaFX application opens a graphical window containing a 10x10 grid. Inside
 
 - **Member 1:** Main window and JavaFX application setup (`RandomGridApp.java`)
 - **Member 2:** 10x10 grid and line drawing (`GridPanel.java`)
-- **Member 3:** Random line data, random color, and random length generation (`RandomLine.java`)
+- **Member 3:** Random line data, random color, and random length generation (`RandomLine.java`) 
 - **Member 4:** Redraw event handling, integration, testing, GitHub organization, and demo video (`AppController.java`)
 
 All team members will review and test the final project before submission.
