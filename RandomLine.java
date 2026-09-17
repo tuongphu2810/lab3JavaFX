@@ -1,8 +1,35 @@
-Pane pane = new pane();
-for(int i = 0; i < 10; i++){
-  for(int j = 0; j < 10; j++){
-    rectangle rect = new Rectangle (50,50);
-    rect.setX(i * 50);
-    rect.setY(j * 50);
-    rec.setFill(Color.color(Math.random(), Math.random(), math.random());
-    pane.getChildren().add(rec);
+package com.example.lab3javafx;
+
+import javafx.scene.paint.Color;
+
+public class RandomLine {
+
+    double x;
+    double length;
+    Color color;
+
+    public RandomLine(double x) {
+
+        this.x = x;
+
+        length = 50 + Math.random() * 350;
+
+        color = Color.color(
+                Math.random(),
+                Math.random(),
+                Math.random()
+        );
+    }
+
+    public double getX() {
+        return x;
+    }
+
+    public double getLength() {
+        return length;
+    }
+
+    public Color getColor() {
+        return color;
+    }
+}
